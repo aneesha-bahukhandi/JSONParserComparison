@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/spacing_large_xx"
+    android:paddingStart="@dimen/spacing_large_xx"
+    tools:context="com.android.bahukhandi.aneesha.parsing.jsonparsing.ParsingComparison">
+
+    <RelativeLayout
+        android:id="@+id/rl_parser_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/spacing_medium"
+        android:visibility="gone">
+
+        <RadioGroup
+            android:id="@+id/rg_parse_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/spacing_medium"
+            android:paddingTop="@dimen/spacing_medium">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_small_json"
+                style="@style/medium_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/small_json" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/rb_big_json"
+                style="@style/medium_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/big_json" />
+        </RadioGroup>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_moshi"
+            style="@style/accent_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_parse_options"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="@string/parse_with_moshi" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_gson"
+            style="@style/accent_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_moshi"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/spacing_medium"
+            android:text="@string/parse_with_gson" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_parse_moshi_section_header"
+        style="@style/accent_section_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="@string/no_options"
+        android:text="@string/parse_with_moshi" />
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_parse_gson_section_header"
+        style="@style/accent_section_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tag="@string/no_options"
+        android:text="@string/parse_with_gson" />
+
+</LinearLayout>

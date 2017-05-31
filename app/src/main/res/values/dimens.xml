@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_size_heading">20sp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="radius">4dp</dimen>
+    <dimen name="spacing_large_xx">48dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
+    <dimen name="font_size_medium">14sp</dimen>
+</resources>

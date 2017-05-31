@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JSONParsing</string>
+    <string name="parse_with_moshi">Parse with Moshi</string>
+    <string name="parse_with_gson">Parse with GSON</string>
+    <string name="small_json">Small Json</string>
+    <string name="big_json">Big Json</string>
+    <string name="small_pojo">Small Java Object</string>
+    <string name="no_options">no_options_visible</string>
+    <string name="option_visible">options_visible</string>
+</resources>

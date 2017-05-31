@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="accent_section_heading" parent="section_heading">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:background">@drawable/bg_light_primary</item>
+    </style>
+
+    <style name="section_heading">
+        <item name="android:textSize">@dimen/font_size_heading</item>
+        <item name="android:padding">@dimen/spacing_medium</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="primary_btn" parent="base_white_text_btn">
+        <item name="android:background">@drawable/bg_primary</item>
+    </style>
+
+    <style name="accent_btn" parent="base_white_text_btn">
+        <item name="android:background">@drawable/bg_accent</item>
+    </style>
+
+    <style name="base_white_text_btn">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:layout_height">@dimen/btn_height</item>
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingStart">@dimen/spacing_medium</item>
+        <item name="android:paddingEnd">@dimen/spacing_medium</item>
+    </style>
+
+    <style name="medium_font">
+        <item name="android:textSize">@dimen/font_size_medium</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+    </style>
+
+</resources>
