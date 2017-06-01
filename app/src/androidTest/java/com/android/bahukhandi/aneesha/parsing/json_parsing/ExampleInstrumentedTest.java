@@ -1,4 +1,4 @@
-package com.android.bahukhandi.aneesha.parsing.jsonparsing;
+package com.android.bahukhandi.aneesha.parsing.json_parsing;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

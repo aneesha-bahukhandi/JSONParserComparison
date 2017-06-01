@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:paddingEnd="@dimen/spacing_large_xx"
     android:paddingStart="@dimen/spacing_large_xx"
-    tools:context="com.android.bahukhandi.aneesha.parsing.jsonparsing.ParsingComparison">
+    tools:context="com.android.bahukhandi.aneesha.parsing.json_parsing.ParsingComparison">
 
     <RelativeLayout
         android:id="@+id/rl_parser_options"

@@ -1,4 +1,4 @@
-package com.android.bahukhandi.aneesha.parsing.jsonparsing.models;
+package com.android.bahukhandi.aneesha.parsing.json_parsing.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;

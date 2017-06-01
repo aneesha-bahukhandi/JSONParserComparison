@@ -1,4 +1,4 @@
-package com.android.bahukhandi.aneesha.parsing.jsonparsing;
+package com.android.bahukhandi.aneesha.parsing.json_parsing;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,8 +9,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RelativeLayout;
 
-import com.android.bahukhandi.aneesha.parsing.jsonparsing.models.ComplexJavaObject;
-import com.android.bahukhandi.aneesha.parsing.jsonparsing.models.SimpleJavaObject;
+import com.android.bahukhandi.aneesha.parsing.json_parsing.models.ComplexJavaObject;
+import com.android.bahukhandi.aneesha.parsing.json_parsing.models.SimpleJavaObject;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.squareup.moshi.JsonAdapter;
