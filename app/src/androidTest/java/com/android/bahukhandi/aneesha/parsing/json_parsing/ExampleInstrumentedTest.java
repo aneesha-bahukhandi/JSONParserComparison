@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.android.bahukhandi.aneesha.parsing.jsonparsing", appContext.getPackageName());
+        assertEquals("com.android.bahukhandi.aneesha.parsing.json_parsing", appContext.getPackageName());
     }
 }
